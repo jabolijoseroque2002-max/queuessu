@@ -1,6 +1,3 @@
-android/
-ios/
-linux/
-macos/
-windows/
-test/
+.dart_tool/
+.packages
+pubspec.lock
