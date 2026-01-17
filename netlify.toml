@@ -1,8 +1,13 @@
 [build]
-  publish = "build/web"
-  command = "echo 'No build needed - using pre-built files'"
+  publish = "."
+  command = "echo 'Using root directory'"
 
 [[redirects]]
+  from = "/"
+  to = "/build/web/index.html"
+  status = 200
+  
+[[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/build/web/index.html"
   status = 200
