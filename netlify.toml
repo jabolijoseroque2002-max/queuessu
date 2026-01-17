@@ -1,6 +1,5 @@
 [build]
   publish = "build/web"
-  command = "# No build needed - using pre-built files"
 
 [[redirects]]
   from = "/*"
